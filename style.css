@@ -1,0 +1,1383 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#cursor{
+    width: 120px;
+        height: 120px;
+        background-color:whitesmoke;
+        mix-blend-mode:overlay;
+        border-radius: 50%;
+
+
+        position:fixed;
+        z-index: 9999;
+
+
+        transition-timing-function: ease-in-out;
+        transition: 0.1s;
+}
+
+
+
+.main{
+
+   
+    
+     width: 100vw;
+     height: 100vh;
+    
+
+     background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    background-size: cover;
+    position: relative;
+    
+    
+     
+
+
+}
+
+
+ ::-webkit-scrollbar{
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    
+}
+
+
+#parentmain1{
+
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     background: rgb(93,93,93);
+    background: linear-gradient(90deg, rgba(93,93,93,1) 28%, rgba(152,152,152,1) 68%, rgba(93,93,93,1) 100%); */
+    background-color: black;;
+}
+
+
+
+
+#main1{
+
+       width: 95%;
+       height: 65vh;
+       background: rgb(93,93,93);
+       background: linear-gradient(90deg, rgba(93,93,93,1) 28%, rgba(152,152,152,1) 68%, rgba(93,93,93,1) 100%);
+       
+/*        background-color: darkslategray;; */
+
+       position: absolute;
+        margin-top: 200px;
+        overflow: hidden;
+       display: flex;
+       justify-content:space-between;
+
+
+}
+
+
+
+#left{
+
+           width:25vw;
+           height:100%;
+       
+
+           position: relative;
+         background-color:black 
+       
+
+}
+
+
+#head1{
+
+    width: 240px;
+    height: 70px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 80px;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+    font-weight: 450;
+    word-spacing: 8px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    color: whitesmoke;
+     
+    
+}
+
+
+span{
+
+
+    letter-spacing: 1px;
+    font-weight: 250;
+    margin-left: 65px;
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+
+}
+
+
+
+#img1{
+    width: 200px;
+    height: 160px;
+    background-image: url(download-5-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+    z-index: 99;
+    
+    
+}
+#img1:hover{
+    transform: scale(1.4);
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    object-fit: cover;
+}
+
+#img2{
+
+    width: 220px;
+    height: 230px;
+    background-image: url(skin-051623740847.jpg);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 150px;
+
+    
+}
+#img2:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    object-fit: cover;
+}
+
+
+#img3{
+
+    width: 200px;
+    height: 240px;
+    background-image: url(rhode-sued8-.jpg);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 240px;
+   
+}
+
+#img3:hover{
+    transform: scale(1.3);
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+#leftbar{
+
+    width: 40px;
+    height: 100%;
+
+    background: rgb(93,93,93);
+background: linear-gradient(90deg, rgba(93,93,93,1) 28%, rgba(152,152,152,1) 68%, rgba(93,93,93,1) 100%);
+
+}
+
+#p1{
+    color: white;
+
+}
+
+
+#head2{
+
+    margin-left: 0px;
+    margin-top: 7px;
+    position: absolute;
+
+    
+
+}
+
+#sp12{
+    color: whitesmoke;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 30px;
+        font-weight: lighter;
+        margin-right: 4px;
+        text-transform: lowercase;
+}
+
+#heading3{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+text-transform: lowercase;
+    color:whitesmoke;
+    font-weight:lighter;
+    font-size: 32px;
+    margin-left: 1px;
+}
+
+
+
+
+
+
+
+
+#right{
+/*     background-color: darkslategray;; */
+    background: rgb(93,93,93);
+background: linear-gradient(90deg, rgba(93,93,93,1) 28%, rgba(152,152,152,1) 68%, rgba(93,93,93,1) 100%);
+    width: 45%;
+    height:100%;
+    position: relative;
+    
+   
+
+
+}
+
+#navbar{
+
+    width: 100%;;
+    height: 70px;
+/*     background-color:darkslategray; */
+    background: rgb(93,93,93);
+background: linear-gradient(90deg, rgba(93,93,93,1) 28%, rgba(152,152,152,1) 68%, rgba(93,93,93,1) 100%);
+    overflow: hidden;
+    position: relative;
+    
+
+    
+    
+}
+a{
+        
+    text-decoration: none;
+    padding: 2vw;
+   
+    align-self: center;
+    align-items: center;
+     color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+    font-size: 1vw;;
+ 
+}
+
+a:hover{
+
+    color:  whitesmoke;
+    background-color: black;
+    height: 2px;
+
+}
+
+#rightbar{
+
+    height: 56vh;
+    width: 50%;
+    
+    
+    background-color:black;
+
+}
+
+
+
+
+
+
+
+#icon{
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 22px;
+    font-size: 17px;
+    
+    color: whitesmoke;
+}
+
+
+
+#img4{
+    left:20%;
+    background-image: url(hai.jpg);
+    background-size: cover;
+    background-position:top;
+    
+    width: 65%;;
+    height: 90%;
+  
+    top: 120px;;
+  
+    position: absolute;
+
+
+
+}
+
+#img4:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    object-fit: cover;
+
+}
+
+#para1{
+    height: 150px;
+    width: 390px;
+    z-index: 3;
+    position: absolute;
+    background-color: black;
+    top: 280px;
+    left: -255px;
+    mix-blend-mode: difference;
+    
+}
+
+#p2{
+    padding: 12px;
+    color: whitesmoke;
+/* background-color: black; */
+    font-weight: lighter;
+    font-size: 14px;
+
+
+    font-family: 'Poppins', sans-serif;
+    
+    letter-spacing: 1px;
+    
+}
+
+#sp3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+#main22{
+
+    
+    width: 100vw;
+    height: 120vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#main221{
+
+    width: 90vw;
+    height: 110vh;
+  
+
+    
+    background-image: url(Hailey-Couch-New_1440x.jpg);
+    
+    background-size: cover;
+  
+}
+
+h2{
+  
+    color: whitesmoke;
+    font-size: 3vw;
+    font-family: 'Michroma', sans-serif;
+    font-weight:lighter;
+    text-align: center;
+}
+
+#span221{
+
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:snow;
+    margin-left: 6px;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main33{
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+
+ 
+    position: relative;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+
+
+}
+
+
+
+
+
+
+#photo331{
+    width: 90%;
+    height: 90%;;
+    background-image: url(rhode-peptide-glazing-fluid.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+#photo331:hover{
+
+    background-image: url(hai.jpg);
+  
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: .8s;
+      
+}
+
+#pro1:hover #content33{
+    visibility: hidden;
+}
+
+
+
+
+
+.product{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.product:hover{
+
+    background-image: url();
+}
+
+
+#dashbar33{
+
+    width: 98%;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+
+    margin-top: 30px;
+    
+    visibility: hidden;
+    background-color: rgb(240, 240, 240);  
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+
+
+}
+
+#pro1:hover #dashbar33{
+
+    margin-top: -60px;
+     visibility: visible;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+
+}
+
+
+#head33{
+
+    color: #67645E;
+    font-size: 45px;
+  font-weight: lighter;
+    font-family:'NN rektorat std heavy';
+    margin-top: -650px;
+    margin-left: 245px;
+    text-transform: uppercase;
+}
+
+::selection{
+    color: red;
+}
+
+#content33{
+
+    width: 100%;
+    height: 62px;
+ 
+   
+    background-color: rgb(217, 217, 217);
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+   
+}
+
+
+
+#content33_2{
+   margin-right: 12px;
+   font-size: 15px;
+   margin-top: 15px;
+   font-weight:bold;
+   font-family: 'Michroma', sans-serif;
+
+
+}
+
+
+
+
+
+h4{
+      text-transform: uppercase;
+      word-spacing: 2px;
+      margin-left: 25px;
+      font-family: 'Michroma', sans-serif;
+    
+      letter-spacing: 2px;
+      margin-top: 10px;
+}
+
+#p33{
+    margin-top: 4px;
+    margin-left: 25px;
+    font-family:sans-serif;
+}
+
+
+
+
+
+#a33{
+color: black;
+margin-top: 7px;
+position: absolute;
+left: 235px;
+font-size: 25px;
+font-weight: lighter;
+font-family:'NN rektorat std heavy';
+word-spacing: 5px;
+
+}
+
+
+
+#a33:hover{
+background-color: transparent;
+ 
+}
+
+#dashbar33:hover{
+
+
+    background-position: 0% 100%;
+    background-image: linear-gradient(#FFFFFF 50%,#B7B7B7 50%);
+   
+
+ transition-duration: .4s;
+ transition-timing-function: ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+#pro2{
+
+    margin-right: 30px;
+  
+   
+}
+
+
+
+
+
+#photo332{
+
+    width: 90%;
+    height: 90%;
+    background-image: url(RHODE-PDPs0536_prev_ui.png);
+    background-size:cover;
+     background-color: rgb(217, 217, 217);
+     background-position: top;
+    margin-top: 50px;
+   
+}
+
+
+#photo332:hover{
+
+    background-image: url(rhode-sued7-.jpg);
+    background-size: cover;
+    background-position: top;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: .5s;
+}
+
+
+#topic332{
+
+    color: #67645E;
+    font-family:'NN rektorat std heavy';
+   font-size: 40px;
+    margin-top: -700px;
+    margin-left: 40px;
+    font-weight: bold;
+   
+  
+
+}
+
+#content33332{
+    width: 100%;
+    height: 70px;
+  color: black;
+     
+    display: flex;
+    justify-content: space-between;
+        background-color:rgb(217, 217, 217);
+
+    margin-top: -70px;
+
+}
+
+#p33331{
+    font-family:sans-serif;
+    text-transform: lowercase;
+margin-top: 7px;
+margin-left:30px;
+color: black;
+}
+
+#content3333_2{
+
+color: black;
+font-size: 15px;
+   margin-top: 19px;
+   margin-right: 18px;
+   font-weight:bold;
+   font-family: 'Michroma', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main44{
+    margin-top: 150px;
+    width: 100vw;
+    height: 100vh;
+
+  background-image: url(Hailey-Couch-Final_1440x.jpg);  
+    background-size: cover;
+    background-position:right;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+#para44{
+    margin-top: 55px;
+    color: snow;
+
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+    word-spacing: 2px;
+  font-family: 'DM Sans', sans-serif;
+    
+ 
+
+}
+
+#b44{
+
+    margin-top: 20px;
+    margin-left:320px;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 300;
+ 
+    border: 2px solid snow;
+    color: black;
+    font-size: 15px;
+
+    background-image: linear-gradient(#FFFFFF 50%,green 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+  
+}
+
+#b44:hover{
+    background-color: white;
+    color: white;
+    background-position: 0% 100%;
+    background-image: linear-gradient(#FFFFFF 50%,#B7B7B7 50%);
+ transition-duration: .5s;
+ transition-timing-function: ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#main55{
+    width: 1400px;
+    height: 800px;
+    background-color: rgb(217, 217, 217);
+    margin-top: 100px;
+    margin-left: 50px;
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    
+
+
+
+}
+
+#head55{
+    width: 90%;
+    height: 350px;
+       
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 120px;
+    background-color:transparent;
+   
+
+
+    
+ display: flex;
+ position: relative;
+justify-content:center;
+ align-items: center;
+
+
+
+}
+
+
+.spanning{
+    color:  #67645E; 
+    font-weight:bold;
+    font-size: 300px;
+    letter-spacing: 20px;
+    font-family:  'Michroma', sans-serif;
+    align-self:center;
+   position: absolute;
+
+}
+
+#sp551{
+
+    margin-left: -1000px;
+   
+}
+
+#sp552{
+ 
+    margin-left: -560px;
+
+  
+ }
+
+ 
+
+
+#sp553{
+    margin-left: -110px;
+    
+ }
+
+
+
+
+#sp554{
+
+    margin-left: 350px;
+ 
+}
+
+
+#sp555{
+ 
+    margin-left: 800px;
+}
+
+
+
+
+
+#bottom55{
+    width: 100%;
+    height: 400px;
+    border-top: 1px solid #67645E;
+    border-bottom: 1px solid #67645E;
+ 
+    margin-top: 17px;
+    background-color:rgb(217, 217, 217);
+
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+
+    
+
+}
+
+
+#bottom551{
+
+    height: 100%;
+    border-right: 1px solid #67645E;
+    border-left: 1px solid #67645E;
+    
+
+    flex-basis: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+   
+   
+   }
+
+#bottom552{
+    border-right: 1px solid grey;
+    height: 100%;
+    
+
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ flex-basis: 250px;
+
+
+}
+
+
+#bottom553{
+    border-right: 1px solid grey;
+    height: 100%;
+    padding: 10px;
+   
+    
+
+
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ flex-basis: 250px;
+justify-content:space-evenly; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#p551{
+
+    text-transform: uppercase;
+    color: black; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Michroma', sans-serif;
+align-items: center;
+align-self: center;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+
+
+.a551{
+
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+color:  #67645E;
+
+align-self: center;
+
+
+
+}   
+
+
+.a551:hover{
+    border-bottom: 1px solid #67645E;
+    background-color: transparent;
+    color:#67645E ;
+    
+}
+
+
+
+
+#p552{
+    font-size: 20px;
+    font-weight: bold;
+   font-family:'Michroma', sans-serif;
+    text-transform: uppercase;
+    color: black;
+
+    align-self: center;
+    margin-left: -120px;
+}
+
+
+.a552{
+    color: #67645E;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+
+     
+   align-self: center;
+   margin-left: -120px; 
+    
+    
+}
+.a552:hover{
+        color: #67645E;
+        background-color: transparent;
+        border-bottom: 1px solid #67645E;
+}
+
+
+
+
+
+
+
+
+
+#p553{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Michroma', sans-serif;
+    color:black;
+
+
+    align-self: center;
+    margin-left: -100px;
+    
+}
+
+.a553{
+color: red;
+font-weight: bold;
+color: #67645E;
+background-color: transparent;
+
+
+margin-left: -100px;
+
+
+align-self:center;
+
+}
+
+
+.a553:hover{
+    border-bottom: 1px solid #67645E;
+    background-color: transparent;
+    color:#67645E ;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main77{
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+
+
+    background-size: cover;
+    background-position: left;
+  background-image: url(Third_-_Tagline_Image_ALT_1440x.jpg);  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#main66{
+    width: 100vw;
+    height: 90vh;
+  background-color: rgb(217, 217, 217); 
+
+margin-top:150px;
+
+
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#img66{
+    width: 50vw;
+    height: 80vh;
+    margin-top: 50px;
+ overflow: hidden;
+
+    background-image: url(GLAZE_1280x_80f9c903-f3d0-40dc-9855-0d193284f0c5_1440x.jpg); 
+
+    background-size: cover;
+    background-position: right;
+    object-fit: cover;
+    background-position: center;
+
+    
+}
+
+#headimg66{
+    color: red;
+    font-size: 130px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 250px;
+    font-family: 'NN rektorat std heavy';
+
+}
+#content66{
+    width: 45vw;
+    height: 80vh;
+ 
+
+    margin-top: 50px;
+}
+
+#head66{
+    font-size: 30px;
+    color: #67645E;
+    font-family: 'NN rektorat std heavy';
+   word-spacing: 8px;
+    margin-top: 170px;
+    padding: 25px;
+    margin-left: 60px;
+}
+
+#para66{
+
+    font-size: 20px;
+    color: #67645E;
+    font-family:'Poppins', sans-serif;
+      font-weight: bold;  
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+#main99{
+    margin-top: 130px;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: darkgoldenrod;;
+   position: relative;
+   background-image: url(Collection_ShoppingBag_Desktop_1_1440x.jpg);
+   background-size: cover; 
+   background-position: bottom;
+
+   object-fit: cover;
+}
+
+
+
+#main88{
+    margin-top: 100px;
+    width: 100vw;
+    height: 90vh;
+
+     background-color: rgb(217, 217, 217);  
+
+
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.cmmn88{
+    width: 420px;
+    height: 90%;
+
+     background-color: rgb(217, 217, 217);  
+    position: relative;
+    border-radius: 10px;
+}
+
+.vedio1{
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+align-items: center;
+border-radius: 10px;
+}
+
+
+
+#head88{
+
+    font-size: 22px;    
+    color: #67645E;
+    font-family: 'NN rektorat std heavy';
+   word-spacing: 8px;
+    margin-top: 70px;
+    padding: 25px;
+    
+    margin-left: 30px;
+}
+
+#para88{
+
+
+    font-size: 20px;
+    color: #67645E;
+    font-family:'Poppins', sans-serif;
+      font-weight: bold;  
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+#mainbox11{
+
+    margin-top: 100px;
+    width: 1330px;
+    height: 700px;
+   align-items: center;
+   margin-left: 10px;
+  background-color: #63716E;
+ 
+  position: relative;
+
+
+
+}
+
+
+
+
+
+
+#minibox11{
+
+  
+    width: 1200px;
+    height: 600px;
+    left: 50px;
+    top: 60px;
+    background-color: rgb(217, 217, 217);
+   position:absolute;
+    
+}
+
+
+
+
+
+
+
+.div11{
+
+    width: 250px;
+    height: 200px;
+    
+
+    margin-top: 100px;
+    position: absolute;
+
+  
+}
+
+#fiv1{
+
+    background-image: url(part11.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
+    
+margin-left: 510px;
+}
+
+
+#fiv2{
+    background-image: url(part5.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: top;
+    margin-left: 810px;
+    margin-top: 305px;
+}
+
+
+
+#fiv3{
+    background-image: url(part2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: right;
+margin-left: 765px;
+margin-top: 100px;
+}
+
+#fiv4{
+background-image: url(part3.jpg);
+background-size:cover;
+object-fit: cover;
+background-position: top;   
+
+
+ margin-left: 555px;
+ margin-top: 305px;
+ 
+}
